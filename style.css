@@ -20,15 +20,21 @@ article {
 #art3 {
     flex: 100%;
 }
+p {
+    text-align: center;
+
+}
 header {
     border: 1px solid black;
     display: flex;
 }
-header h1 {
+Section h1 {
     flex: 50%;
     border: 1px solid black;
     align-self: center;
     text-align: center;
+    font-size: 150px;
+    flex-wrap: wrap-reverse;
 }
 header ul {
     flex: 50%   ;
